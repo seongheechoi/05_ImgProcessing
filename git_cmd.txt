@@ -35,6 +35,8 @@
 
  git branch 브랜치명 : 브랜치 만들기
 
+ git clone -b {branch_name} --single-branch {저장소 URL}
+
 #(HEAD -> master)
 #(origin/master) : 로컬에서 커밋하고 원격저장소에 저장하지 않은 경우, 커밋 최신버전이 상이하므로 원격저장소에서는 (origin/master)가 뜸
 #origin 은 우리가 연결한 깃허브 원격저장소의 닉네임
